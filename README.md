@@ -4,12 +4,7 @@ Focus-aware Discord Rich Presence for Orca ADE on Linux.
 
 Instead of Discord's generic `orca-ide` process detection, this companion publishes the project, AI model, true OMP session title, session timer, Orca artwork, and an oh-my-pi badge:
 
-```text
-Orca ADE
-Trident-APE · GPT-5.6 Sol
-Resolve Trident APE product outcome
-12:08:31 elapsed
-```
+![Discord Rich Presence showing Orca ADE, the Trident-APE project, GPT-5.6 Sol, the active session title, and elapsed time](docs/discord-presence-example.png)
 
 This is an independent community project. It is not affiliated with Discord or Orca.
 
