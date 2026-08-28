@@ -1,0 +1,15 @@
+[Unit]
+Description=Orca ADE Discord Rich Presence
+Documentation=https://github.com/riccardo-algorime/orca-discord-presence
+
+[Service]
+Type=simple
+ExecStart=@EXECUTABLE@ --config @CONFIG@
+Restart=on-failure
+RestartSec=5s
+Environment=PYTHONUNBUFFERED=1
+NoNewPrivileges=true
+UMask=0077
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,22 @@
+[privacy]
+# These values are visible to your Discord friends.
+show_project = true
+show_session = true
+show_model = true
+
+[discord]
+# The bundled public application provides the Orca and oh-my-pi assets.
+client_id = "1542854905906331710"
+large_image = "orca"
+large_text = "Orca ADE"
+omp_small_image = "omp1-transparent"
+
+[paths]
+orca_executable = "/opt/Orca/orca-ide"
+orca_config = "~/.config/orca"
+omp_terminal_sessions = "~/.omp/agent/terminal-sessions"
+
+[timing]
+poll_interval_seconds = 2
+reconnect_interval_seconds = 10
+refresh_interval_seconds = 15
