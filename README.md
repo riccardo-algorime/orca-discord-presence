@@ -117,7 +117,7 @@ omp_terminal_sessions = "~/.omp/agent/terminal-sessions"
 ## Update
 
 ```bash
-cd ~/lavoro/orca-discord-presence
+cd /path/to/orca-discord-presence
 git pull
 ./install.sh
 ```
